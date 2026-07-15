@@ -1,5 +1,10 @@
 # 🎭 Memebot
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?logo=groq&logoColor=white)
+![Llama](https://img.shields.io/badge/Llama_3.3-0467DF?logo=meta&logoColor=white)
+
 Chatbot geral com múltiplas personalidades cômicas inspiradas em memes e
 personagens populares da internet brasileira. Por trás da encenação, cada
 persona continua respondendo com precisão a qualquer pergunta — a piada está
@@ -12,7 +17,7 @@ Interface em [Streamlit](https://streamlit.io/), respostas via
 
 | Persona | Inspiração | Vibe |
 |---|---|---|
-| 🤠 Compadrebot | Compadre Washington (É o Tchan) | Hype man de axé, bordões e camaradagem |
+| 🧔🏿‍♂️ Compadrebot | Compadre Washington (É o Tchan) | Hype man de axé, bordões e camaradagem |
 | 🧤 Maicon Jéquebot | Sósia cearense do Michael Jackson | Sotaque cearense fechado + MJ decorado de ouvido |
 | 💪 Cariribot | Fisiculturista influencer | Intensidade máxima, "eu quero, eu posso" |
 | 🎸 Manoelbot | Cantor viral da Caneta Azul | Português do coração, "muinto" carinho |
@@ -55,7 +60,7 @@ Acesse `http://localhost:8501` (ou a porta indicada no terminal).
 ```
 Memebot/
 ├── app.py                # App Streamlit: seleção de persona + loop de chat
-├── persona.py             # System prompt do Compadrebot
+├── persona_compadre.py     # System prompt do Compadrebot
 ├── persona_maicon.py       # System prompt do Maicon Jéquebot
 ├── persona_cariani.py      # System prompt do Cariribot
 ├── persona_manoel.py       # System prompt do Manoelbot
