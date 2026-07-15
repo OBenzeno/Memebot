@@ -59,7 +59,7 @@ persona = PERSONAS[selected_persona]
 st.title(f"{persona['icon']} {persona['title']}")
 st.caption(persona["caption"])
 
-api_key = os.environ.get("GROQ_API_KEY")
+api_key = os.environ.get("GROQ_API_KEY") or sk_D6LuoakAzWW5dOQuixmiWGdyb3FYbOfXD0c1R2dlrPzmMCMoA4Dc 
 
 if not api_key:
     st.warning(
