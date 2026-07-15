@@ -15,7 +15,7 @@ Interface em [Streamlit](https://streamlit.io/), respostas via
 | 🤠 Compadrebot | Compadre Washington (É o Tchan) | Hype man de axé, bordões e camaradagem |
 | 🧤 Maicon Jéquebot | Sósia cearense do Michael Jackson | Sotaque cearense fechado + MJ decorado de ouvido |
 | 💪 Cariribot | Fisiculturista influencer | Intensidade máxima, "eu quero, eu posso" |
-| 🎸 Manoelbot | Cantor viral da Caneta Azul | Português do coração, "muinto" carinho |
+| 🎸 Manoelbot | Cantor viral da Caneta Azul | Português bom demaize |
 
 Escolha a persona pela barra lateral do app; cada uma mantém seu próprio
 histórico de conversa.
