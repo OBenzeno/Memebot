@@ -59,11 +59,11 @@ persona = PERSONAS[selected_persona]
 st.title(f"{persona['icon']} {persona['title']}")
 st.caption(persona["caption"])
 
-api_key = os.environ.get("GROQ_API_KEY")  or st.secrets.get("GROQ_API_KEY")
+api_key = st.secrets.get("GROQ_API_KEY") or os.environ.get("GROQ_API_KEY")
 
 if not api_key:
     st.warning(
-        "Oxente, cumpadi! Cadê a chave da API? Crie um arquivo `.env` na "
+        "Cadê a chave da API? Crie um arquivo `.env` ou .streamlit/secrets.toml na "
         "raiz do projeto com `GROQ_API_KEY=sua_chave_aqui` e reinicie o app."
     )
     st.stop()
